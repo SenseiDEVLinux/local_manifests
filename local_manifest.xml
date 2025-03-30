@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+     <!-- Remotes -->
+     <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" />
+     
+    <!-- Sync trees -->
+    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="all" revision="crdroid-15" />
+    <project path="vendor/xiaomi/garnet" name="GarnetDevTrees/vendor_xiaomi_garnet" remote="all" revision="lineage-22.2" />
+    <project path="device/xiaomi/garnet-kernel" name="GarnetDevTrees/kernel_xiaomi_garnet" remote="all" revision="lineage-22.1" />
+    
+    <!-- HALs -->
+    <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+    <project name="GarnetDevTrees/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="lineage-22.1" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+    <project name="GarnetDevTrees/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="all" revision="lineage-22.1" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+    <project name="GarnetDevTrees/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="lineage-22.1" />
+	
+    <!-- Extra files -->
+    <project name="GarnetDevTrees/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="all" revision="lineage-22.1" />
+     
+</manifest>

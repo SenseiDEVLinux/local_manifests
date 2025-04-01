@@ -12,7 +12,7 @@
     <project path="device/xiaomi/garnet-kernel" name="crdroidandroid/android_xiaomi_kernel_garnet" remote="all" revision="15.0" />
     
     <!-- HALs -->
-    <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
+    <project name="yaap/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="fifteen" />
     <remove-project name="android_vendor_qcom_opensource_agm" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="lineage-22.1" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="all" revision="lineage-22.1" />

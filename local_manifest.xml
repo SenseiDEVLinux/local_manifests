@@ -19,8 +19,5 @@
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="all" revision="lineage-22.1" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="lineage-22.1" />
-	
-    <!-- Extra files -->
-    <project name="GarnetDevTrees/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="all" revision="lineage-22.1" />
      
 </manifest>

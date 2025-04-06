@@ -20,6 +20,7 @@
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="lineage-22.1" />
 
      <!-- Extra files -->
-     <project name="GarnetDevTrees/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="all" revision="lineage-22.1" />
+     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.1" />
+     <project name="GarnetDevTrees/camera" path="vendor/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.1" />
      
 </manifest>

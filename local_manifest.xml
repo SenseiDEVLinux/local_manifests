@@ -15,9 +15,9 @@
     <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="lineage-22.1" />
-    <remove-project name="LineageOSandroid_vendor_qcom_opensource_agm" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="all" revision="lineage-22.1" />
-    <remove-project name="LineageOSandroid_vendor_qcom_opensource_arpal-lx" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
     <project name="GarnetDevTrees/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="lineage-22.1" />
 
      <!-- Extra files -->

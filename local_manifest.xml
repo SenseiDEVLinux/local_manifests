@@ -22,6 +22,6 @@
 
      <!-- Extra files -->
      <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="leica" />
-     <project name="GarnetDevTrees/camera" path="vendor/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.1" />
+     <project name="GarnetDevTrees/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/miuicamera-garnet" remote="all" revision="fifteen" />
      
 </manifest>

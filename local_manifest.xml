@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+     <!-- Remotes -->
+     <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" />
+
+     <remote name="cod"
+          fetch="https://codeberg.org/"
+          clone-depth="1" />
+     
+     <!-- Sync trees -->
+    <project path="device/xiaomi/garnet" name="GarnetHub/1device_xiaomi_garnet" remote="all" revision="lineage-23.0" />
+    <project path="vendor/xiaomi/garnet" name="garnet-random/proprietary_vendor_xiaomi_garnet" remote="all" revision="lineage-23.0" />
+    
+    <!-- Kernel trees -->
+    <project path="kernel/xiaomi/sm7435" name="LineageOS/android_kernel_xiaomi_sm7435" remote="all" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm7435-modules" name="LineageOS/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm7435-devicetrees" name="LineageOS/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.2" />
+    
+    <!-- Xiaomi Hardware -->
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-23.2" />
+
+    <!-- MiuiCamera -->
+    <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
+    <project name="ramaadni/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="cod" revision="lineage-22.2" />
+
+     <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
+
+     <project name="SenseiDEVLinux/LiteGapps" path="vendor/gms" remote="cod" revision="master" />
+
+</manifest>

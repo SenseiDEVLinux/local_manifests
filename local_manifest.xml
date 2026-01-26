@@ -15,12 +15,12 @@
     <project path="vendor/xiaomi/garnet" name="garnet-random/proprietary_vendor_xiaomi_garnet" remote="all" revision="lineage-23.0" />
     
     <!-- Kernel trees -->
-    <project path="kernel/xiaomi/sm7435" name="LineageOS/android_kernel_xiaomi_sm7435" remote="all" revision="lineage-23.2" />
-    <project path="kernel/xiaomi/sm7435-modules" name="LineageOS/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.2" />
-    <project path="kernel/xiaomi/sm7435-devicetrees" name="LineageOS/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm7435" name="LineageOS/android_kernel_xiaomi_sm7435" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm7435-modules" name="LineageOS/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm7435-devicetrees" name="LineageOS/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.0" />
     
     <!-- Xiaomi Hardware -->
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-23.2" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-23.0" />
 
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
